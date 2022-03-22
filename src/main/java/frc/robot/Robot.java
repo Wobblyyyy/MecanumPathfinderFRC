@@ -75,14 +75,14 @@ public class Robot extends TimedRobot {
         Trajectory a = new LinearTrajectory(
             new PointXYZ(10, 10, Angle.fromDeg(45)),
             0.5,
-            2.0, 
+            2.0,
             Angle.fromDeg(5)
         );
 
         Trajectory b = new LinearTrajectory(
             new PointXYZ(20, 10, Angle.fromDeg(90)),
             0.75,
-            2.0, 
+            2.0,
             Angle.fromDeg(5)
         );
 
